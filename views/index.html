@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <title>Example Ajax Cart</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+</head>
+<body>
+<section style="max-width: 990px; margin: 0 auto;">
+
+    <div style="width: 70%; float: left;">
+        <h2>Add product to cart:</h2>
+        <div class="products">
+            <div class="products-item" data-id="pr-1">
+                <span class="name">Product 1</span>
+                <button class="add">Add to cart</button>
+            </div>
+            <div class="products-item" data-id="pr-2">
+                <span class="name">Product 2</span>
+                <button class="add">Add to cart</button>
+            </div>
+            <div class="products-item" data-id="pr-3">
+                <span class="name">Product 3</span>
+                <button class="add">Add to cart</button>
+            </div>
+            <div class="products-item" data-id="pr-4">
+                <span class="name">Product 4</span>
+                <button class="add">Add to cart</button>
+            </div>
+        </div>
+    </div>
+
+    <div style="width: 30%; float: left" class="cart">
+        <h2>You cart:</h2>
+        <div class="your-products"></div>
+    </div>
+
+</section>
+
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script src="/js/script.js"></script>
+</body>
+</html>
