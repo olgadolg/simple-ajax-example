@@ -1,6 +1,6 @@
 To run project:
 
-npm install
-npm start
+1. npm install
+2. npm start
 
 open http://localhost:8000/
